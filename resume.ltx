@@ -33,7 +33,24 @@
     }
 }
 
+%body layout
+\newcommand\twocolumnsection[2]{
+  % first column
+  \begin{minipage}[t]{0.20\textwidth}
+    \fontsize{16pt}{0.4em}\selectfont{
+      \textcolor{gray}{\textbf{#1}}
+    }
+  \end{minipage}
+  %second column
+  \begin{minipage}[t]{0.80\textwidth}
+  #2
+  \end{minipage}
+}
 
+
+%%%%%%%%%
+% start of page %
+%%%%%%%%%
 \begin{document}
 
 
@@ -44,6 +61,11 @@
 %
 \vspace{60pt}
 
-foo
+\twocolumnsection{Profile}{I am a business minded iOS development professional, that is quick to adapt, and has an eye for the user experience. I have developed everything from ad-serving iPhone SDK?s to lead
+generation web services, budgeting apps to social media apps that leverage a Graph API, and
+many other things in-between. Besides my tangible skill set, I have proven myself to be a
+leader and hard worker over my job history. If you have any questions, feel free to contact me
+at the email address or phone number listed above. I look forward to exceeding your
+expectations.}
 
 \end{document}
