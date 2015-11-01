@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 NOV 2015 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 NOV 2015 15:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -135,19 +135,19 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 ) (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 76.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -185,9 +185,9 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package ragged2e Info: ABD: executing \RaggedRight on input line 64.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 76.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 64.
+LaTeX Info: Redefining \selectfont on input line 76.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -204,44 +204,83 @@ LaTeX Info: Redefining \selectfont on input line 64.
 \everyMPtoPDFconversion=\toks18
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <46> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 68.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 68.
+(Font)              <8> on input line 80.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 68.
+(Font)              <6> on input line 80.
 
-Overfull \hbox (23.13536pt too wide) in paragraph at lines 68--71
+Overfull \hbox (23.13536pt too wide) in paragraph at lines 80--83
 []$[]$    $[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--71
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
  
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <16> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 89.
 
-Overfull \hbox (3.33586pt too wide) in paragraph at lines 77--78
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 89--90
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
  
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 86.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 98.
 
-Overfull \hbox (3.33586pt too wide) in paragraph at lines 86--87
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 98--98
+[] [] 
+ []
+
+
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 98--98
+[] [] 
+ []
+
+
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 98--98
+[] [] 
+ []
+
+
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 98--99
 [][] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+ 
+ []
+
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 114.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 114.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 114.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+ 
+ []
+
+
+Overfull \hbox (3.33586pt too wide) in paragraph at lines 114--115
+[][] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
  
  []
 
@@ -250,20 +289,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--87
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 2269 strings out of 493089
- 31177 string characters out of 6134842
- 97951 words of memory out of 5000000
- 5759 multiletter control sequences out of 15000+600000
- 14247 words of font info for 33 fonts, out of 8000000 for 9000
+ 2291 strings out of 493089
+ 31533 string characters out of 6134842
+ 100006 words of memory out of 5000000
+ 5776 multiletter control sequences out of 15000+600000
+ 16133 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,8n,35p,571b,167s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,35p,571b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
-}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on resume.pdf (1 page, 19531 bytes).
+}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on resume.pdf (1 page, 32390 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 25 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

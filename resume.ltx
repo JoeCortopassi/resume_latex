@@ -48,14 +48,26 @@
 }
 
 
-%experience
-\newcommand\portfolioline[3][t]{%
-  \par\noindent\parbox[#1]{.25\textwidth}{
+%portfolio
+\newcommand\portfolioline[3][t]{
+  \par\noindent\parbox[#1]{.25\linewidth}{
     \textbf{#2}
-  }%
-  \parbox[#1]{.75\textwidth}{#3}%
-  \smallskip
+  }
+  \parbox[#1]{.75\linewidth}{#3}
+  \vspace{0.25pt}
 }
+
+
+%experience
+\newcommand\experience[5]{
+  \parbox[t]{\linewidth}{
+    \textbf{#1} \\ %job title 
+    #2 - #3 \\ %company - location
+    \textit{#4} \\
+    #5 
+  }
+}
+
 
 
 %%%%%%%%%
@@ -69,7 +81,7 @@
 \hfill
 \contactinfo{joe@joecortopassi.com}{951.553.0000}{joe@joecortopassi.com}
 
-\vspace{60pt}
+\vspace{40pt}
 \twocolumnsection{
   Profile
 }{
@@ -86,5 +98,24 @@
 }
 
 \vspace{60pt}
-%
+\twocolumnsection{ Experience }{
+  \experience{
+    Lead iOS Developer }{
+    OneHealth }{
+    Solana Beach, CA }{
+    April 2014 - August 2014 }{
+    \begin{itemize}
+      \item Lead development for companies main iPhone app
+      \item Continuous Integration pipeline utilizing Jenkins, TestFlight, etc
+      \item Pioneer Integration and Unit Test coverage
+      \item Integrated web sockets via Node.js server for app updates
+      \item Leveraged existing Graph API with deferred message handling
+    \end{itemize}}
+}
+
+
+
+
+
+
 \end{document}
