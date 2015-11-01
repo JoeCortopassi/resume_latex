@@ -13,8 +13,15 @@
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{helvet}
 
+%title
+\newcommand\titlename[2][c]{
+  \parbox[#1]{.665\textwidth}{
+    \fontsize{46pt}{1em}\selectfont\textbf{#2}
+  }
+}
+
 %contact box
-\newcommand\contactinfo[4][t]{
+\newcommand\contactinfo[4][c]{
   \parbox[#1]{.333\textwidth}{
       \fontsize{12pt}{0.4em}\selectfont{
         \begin{tabular}{r@{:}l}
@@ -30,11 +37,13 @@
 \begin{document}
 
 
-% Header: name
-\raggedright
-\fontsize{42pt}{1em}\selectfont\textbf{Joe Cortopassi}
-\hfill\raggedleft
+% Header
+\titlename{Joe Cortopassi}
+\hfill
 \contactinfo{joe@joecortopassi.com}{951.553.0000}{joe@joecortopassi.com}
+%
+\vspace{60pt}
 
+foo
 
 \end{document}
