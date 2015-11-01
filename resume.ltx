@@ -1,21 +1,26 @@
 \documentclass[a4paper,12pt]{article}
 
+% colors
+\usepackage{color}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{darkgray}{RGB}{121,121,121}
+\definecolor{lightblack}{RGB}{61,61,61}
+\color{lightblack}
+
 %font
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{helvet}
 
-\newcommand\textline[4][t]{%
-  \par\smallskip\noindent\parbox[#1]{.333\textwidth}{\raggedright\texttt{+}#2}%
-  \parbox[#1]{.333\textwidth}{\centering#3}%
-  \parbox[#1]{.333\textwidth}{\raggedleft\texttt{#4}}\par\smallskip%
-}
-
-\newcommand\contactinfo[3][t]{%
+%contact box
+\newcommand\contactinfo[4][t]{
   \parbox[#1]{.333\textwidth}{
-      \fontsize{12pt}{1em}\selectfont{
-        \raggedleft{email: }#2 \\
-        \raggedleft{phone: }#3 
-      }\par\smallskip%
+      \fontsize{12pt}{0.4em}\selectfont{
+        \begin{tabular}{r@{:}l}
+          \textcolor{gray}{email}& #2 \\
+          \textcolor{gray}{phone}& #3 \\
+          \textcolor{gray}{web}& #4 \\
+        \end{tabular}
+      }
     }
 }
 
@@ -26,10 +31,8 @@
 % Header: name
 \fontsize{36pt}{1em}\selectfont\textbf{
   Joe Cortopassi
-}\hfill
+}
+\contactinfo{joe@joecortopassi.com}{951.553.0000}{joe@joecortopassi.com}
 
-\contactinfo{joe@joecortopassi.com}{951.553.0000}
-
-\textline{foo bar}{ bizz}{ bazz}
 
 \end{document}
