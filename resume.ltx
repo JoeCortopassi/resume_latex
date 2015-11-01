@@ -22,8 +22,8 @@
 
 %contact box
 \newcommand\contactinfo[4][c]{
-  \parbox[#1]{.333\textwidth}{
-      \fontsize{12pt}{0.4em}\selectfont{
+  \parbox[#1]{.36\textwidth}{
+      \fontsize{12pt}{1em}\selectfont{
         \begin{tabular}{r@{:}l}
           \textcolor{gray}{email}&\ #2 \\
           \textcolor{gray}{phone}&\ #3 \\
@@ -43,8 +43,18 @@
   \end{minipage}
   %second column
   \begin{minipage}[t]{0.80\textwidth}
-  #2
+    #2
   \end{minipage}
+}
+
+
+%experience
+\newcommand\portfolioline[3][t]{%
+  \par\noindent\parbox[#1]{.25\textwidth}{
+    \textbf{#2}
+  }%
+  \parbox[#1]{.75\textwidth}{#3}%
+  \smallskip
 }
 
 
@@ -58,14 +68,23 @@
 \titlename{Joe Cortopassi}
 \hfill
 \contactinfo{joe@joecortopassi.com}{951.553.0000}{joe@joecortopassi.com}
-%
+
 \vspace{60pt}
+\twocolumnsection{
+  Profile
+}{
+  I am a business minded iOS development professional, that is quick to adapt, and has an eye for the user experience. I have developed everything from ad-serving iPhone SDK?s to lead generation web services, budgeting apps to social media apps that leverage a Graph API, and many other things in-between. Besides my tangible skill set, I have proven myself to be a leader and hard worker over my job history. If you have any questions, feel free to contact me at the email address or phone number listed above. I look forward to exceeding your expectations.
+}
 
-\twocolumnsection{Profile}{I am a business minded iOS development professional, that is quick to adapt, and has an eye for the user experience. I have developed everything from ad-serving iPhone SDK?s to lead
-generation web services, budgeting apps to social media apps that leverage a Graph API, and
-many other things in-between. Besides my tangible skill set, I have proven myself to be a
-leader and hard worker over my job history. If you have any questions, feel free to contact me
-at the email address or phone number listed above. I look forward to exceeding your
-expectations.}
+\vspace{2em}
+\twocolumnsection{
+  Portfolio
+}{
+  \portfolioline{App Store:}{AppStore.com/JoeCortopassi} \\
+  \portfolioline{Github:}{GitHub.com/JoeCortopassi} \\
+  \portfolioline{StackOverflow:}{StackOverflow.com/users/251012/joecortopassi} \\
+}
 
+\vspace{60pt}
+%
 \end{document}
