@@ -1,4 +1,6 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[document]{ragged2e}
 
 % colors
 \usepackage{color}
@@ -16,9 +18,9 @@
   \parbox[#1]{.333\textwidth}{
       \fontsize{12pt}{0.4em}\selectfont{
         \begin{tabular}{r@{:}l}
-          \textcolor{gray}{email}& #2 \\
-          \textcolor{gray}{phone}& #3 \\
-          \textcolor{gray}{web}& #4 \\
+          \textcolor{gray}{email}&\ #2 \\
+          \textcolor{gray}{phone}&\ #3 \\
+          \textcolor{gray}{web}&\ #4 \\
         \end{tabular}
       }
     }
@@ -29,9 +31,9 @@
 
 
 % Header: name
-\fontsize{36pt}{1em}\selectfont\textbf{
-  Joe Cortopassi
-}
+\raggedright
+\fontsize{42pt}{1em}\selectfont\textbf{Joe Cortopassi}
+\hfill\raggedleft
 \contactinfo{joe@joecortopassi.com}{951.553.0000}{joe@joecortopassi.com}
 
 
