@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 NOV 2015 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 NOV 2015 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -31,7 +31,7 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
-No file resume.aux.
+(./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -47,85 +47,28 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 8.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <36> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <18> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 20.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]
- []
-
-
-Overfull \hbox (2.62996pt too wide) in paragraph at lines 20--20
-\OT1/phv/b/n/18 foo 
- []
-
-
-Overfull \hbox (3.00768pt too wide) in paragraph at lines 20--20
-\OT1/phv/b/n/18 bar 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-
- []
-
-LaTeX Font Info:    Calculating math sizes for size <36> on input line 20.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 20.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 20.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <36> not available
-(Font)              size <24.88> substituted on input line 20.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <18> not available
-(Font)              size <17.28> substituted on input line 20.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 20.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <18> not available
-(Font)              size <17.28> substituted on input line 20.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <36> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <25.19989> on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <18> on input line 20.
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./resume.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 11.12pt have occurred.
-
- ) 
+(./resume.aux) ) 
 Here is how much of TeX's memory you used:
- 325 strings out of 493089
- 4031 string characters out of 6134842
+ 302 strings out of 493089
+ 3682 string characters out of 6134842
  53199 words of memory out of 5000000
- 3878 multiletter control sequences out of 15000+600000
- 12004 words of font info for 29 fonts, out of 8000000 for 9000
+ 3856 multiletter control sequences out of 15000+600000
+ 7937 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,4n,19p,119b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on resume.pdf (1 page, 9534 bytes).
+ 23i,4n,19p,119b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on resume.pdf (1 page, 9286 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream
