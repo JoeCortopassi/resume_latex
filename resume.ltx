@@ -1,8 +1,23 @@
 \documentclass[a4paper,12pt]{article}
 
+%font
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{helvet}
 
+\newcommand\textline[4][t]{%
+  \par\smallskip\noindent\parbox[#1]{.333\textwidth}{\raggedright\texttt{+}#2}%
+  \parbox[#1]{.333\textwidth}{\centering#3}%
+  \parbox[#1]{.333\textwidth}{\raggedleft\texttt{#4}}\par\smallskip%
+}
+
+\newcommand\contactinfo[3][t]{%
+  \parbox[#1]{.333\textwidth}{
+      \fontsize{12pt}{1em}\selectfont{
+        \raggedleft{email: }#2 \\
+        \raggedleft{phone: }#3 
+      }\par\smallskip%
+    }
+}
 
 
 \begin{document}
@@ -11,8 +26,10 @@
 % Header: name
 \fontsize{36pt}{1em}\selectfont\textbf{
   Joe Cortopassi
-}
+}\hfill
 
+\contactinfo{joe@joecortopassi.com}{951.553.0000}
 
+\textline{foo bar}{ bizz}{ bazz}
 
 \end{document}
