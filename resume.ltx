@@ -1,6 +1,8 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[margin=0.5in]{geometry}
 \usepackage[document]{ragged2e}
+\usepackage{enumitem}
+\usepackage{etoolbox}
 
 % colors
 \usepackage{color}
@@ -12,6 +14,11 @@
 %font
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage{helvet}
+
+%conditional text
+\newcommand\IfTextThenItem[1]{
+  \ifstrempty{#1}{}{\item #1}
+}
 
 %title
 \newcommand\titlename[2][c]{
@@ -68,6 +75,16 @@
   }
 }
 
+%experience items
+\newcommand\experienceitems[5]{
+  \begin{itemize}[leftmargin=15pt]
+      \IfTextThenItem{#1}
+      \IfTextThenItem{#2}
+      \IfTextThenItem{#3}
+      \IfTextThenItem{#4}
+      \IfTextThenItem{#5}
+    \end{itemize}
+}
 
 
 %%%%%%%%%
@@ -97,20 +114,127 @@
   \portfolioline{StackOverflow:}{StackOverflow.com/users/251012/joecortopassi} \\
 }
 
-\vspace{60pt}
+\vspace{2em}
 \twocolumnsection{ Experience }{
+  \experience{
+     }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
   \experience{
     Lead iOS Developer }{
     OneHealth }{
     Solana Beach, CA }{
     April 2014 - August 2014 }{
-    \begin{itemize}
-      \item Lead development for companies main iPhone app
-      \item Continuous Integration pipeline utilizing Jenkins, TestFlight, etc
-      \item Pioneer Integration and Unit Test coverage
-      \item Integrated web sockets via Node.js server for app updates
-      \item Leveraged existing Graph API with deferred message handling
-    \end{itemize}}
+    \experienceitems{
+      Lead development for companies main iPhone app
+    }{
+      Continuous Integration pipeline utilizing Jenkins, TestFlight, etc
+    }{
+      Pioneer Integration and Unit Test coverage
+    }{
+      Integrated web sockets via Node.js server for app updates
+    }{
+      Leveraged existing Graph API with deferred message handling
+    }
+  }
+  \experience{
+     }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
+  \experience{
+    Cie Studios }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
+  \experience{
+     }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
+  \experience{
+     }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
+  \experience{
+     }{ %title
+     }{ %company
+     }{ %location
+     }{ %dates
+    \experienceitems{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }{
+      
+    }
+  }
 }
 
 
